@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Potikm/love.git/static/css/main.800cfe38.css",
+    "main.js": "/Potikm/love.git/static/js/main.db0e6c67.js",
+    "static/js/453.192b04f3.chunk.js": "/Potikm/love.git/static/js/453.192b04f3.chunk.js",
+    "static/media/hello-kitty-png-icon-16795.png": "/Potikm/love.git/static/media/hello-kitty-png-icon-16795.7157546b3ad3bd121759.png",
+    "static/media/Animation - 1725915769730.gif": "/Potikm/love.git/static/media/Animation - 1725915769730.3ea97f8a89244b39aa78.gif",
+    "index.html": "/Potikm/love.git/index.html",
+    "main.800cfe38.css.map": "/Potikm/love.git/static/css/main.800cfe38.css.map",
+    "main.db0e6c67.js.map": "/Potikm/love.git/static/js/main.db0e6c67.js.map",
+    "453.192b04f3.chunk.js.map": "/Potikm/love.git/static/js/453.192b04f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.800cfe38.css",
+    "static/js/main.db0e6c67.js"
+  ]
+}
