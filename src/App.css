@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heart{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #F9629F;
 }
 
-.App-link {
-  color: #61dafb;
+.ily{
+  background-color: pink;
+  border: none;
+  font-size: 60px;
+  border-radius: 5px;
+  font-family: "Lovers Quarrel", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heartGif1{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  gap: 40px;
+  z-index: 1;
+}
+
+.heartGif2{
+  position: absolute;
+  top: 85%;
+  left: 85%;
+  transform: translateX(-50%) translateY(-50%);
+  gap: 40px;
+  z-index: 1;
+}
+
+.heartGif3{
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  transform: translateX(-50%) translateY(-50%);
+  gap: 40px;
+  z-index: 1;
+}
+
+.heartGif4{
+  position: absolute;
+  top: 85%;
+  left: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  gap: 40px;
+  z-index: 1;
+}
+
+
+.nily{
+  background-color: gray;
+  border: none;
+  font-size: 15px;
+  border-radius: 30%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+.loveYou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed, or use a specific height */
+  width: 100vw; /* Adjust as needed, or use a specific width */
+  background: rgba(0, 0, 0, 0.851);
+  position: relative; /* Ensure the canvas can be absolutely positioned */
+}
+
+#pinkboard {
+  /* Ensure the canvas is sized correctly */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text{
+  font-family: "Lovers Quarrel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: aqua;
+  z-index: 1;
+  font-size: 40px;
+  transition-delay: 1s;
+  animation: mymove 5s;
+
+}
+
+
+@keyframes mymove {
+  0% {opacity: 0;};
+  50% {opacity: 0.5;}
+  100% {opacity: 1;}
 }
