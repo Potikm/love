@@ -8,7 +8,7 @@ function App() {
  
 
   return (
-    <div className="App" >
+    <div className="love" >
       <BrowserRouter >
         <Pages />
       </BrowserRouter>

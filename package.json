@@ -1,7 +1,7 @@
 {
   "name": "heart",
   "version": "0.1.0",
-  "homepage": "https://Potikm.github.io/love",
+  "homepage": "https://potikm.github.io/love",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.25.2",
